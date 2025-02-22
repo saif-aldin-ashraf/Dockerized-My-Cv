@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    container_name: saif-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: saifdb
+      MYSQL_USER: saifuser
+      MYSQL_PASSWORD: saifpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+    restart: always
+
+  backend:
+    image: saifeldin1/saif-cv-backend:latest
+    container_name: saif-backend
+    ports:
+      - "5001:5000"  # Map host port 5001 to container port 5000
+    depends_on:
+      - db
+    restart: always
+
+  frontend:
+    image: saifeldin1/saif-cv-frontend:latest
+    container_name: saif-frontend
+    ports:
+      - "8050:80"  # Map port 80 in the container to port 8050 on the host
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  db-data:
