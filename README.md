@@ -40,3 +40,11 @@ Containerization: Docker, Docker Compose.
 `curl http://localhost:5001/api/visitor-count`
 
 
+
+![Screenshot 2025-02-22 184215](https://github.com/user-attachments/assets/cbefea68-c4ea-46e8-b667-a81c82e81166)
+
+
+
+![Screenshot 2025-02-22 190101](https://github.com/user-attachments/assets/6bf3c90e-b59a-407c-b72f-4703a3a7cd70)
+
+
