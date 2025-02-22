@@ -30,3 +30,13 @@ Containerization: Docker, Docker Compose.
 
 `docker-compose up -d`
 
+
+## Access the website:
+
+`http://localhost:8050`
+
+#### Test the backend API:
+
+`curl http://localhost:5001/api/visitor-count`
+
+
