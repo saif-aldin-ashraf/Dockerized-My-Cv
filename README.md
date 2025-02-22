@@ -14,7 +14,7 @@ Dockerized: The entire application is containerized for easy deployment and scal
 Docker Compose: Simplifies the setup and running of the application with a single command.
 
 
-## echnologies Used
+## Technologies Used
 Frontend: HTML, CSS, JavaScript, Nginx.
 
 Backend: Flask (Python), MySQL.
@@ -28,5 +28,5 @@ Containerization: Docker, Docker Compose.
 
 ## Run the application using Docker Compose:
 
-'docker-compose up -d'
+`docker-compose up -d`
 
