@@ -1,6 +1,8 @@
 # Dockerized-My-Cv
 Saif's CV Website This project is a Dockerized personal CV website that showcases my skills, experience, and certifications. It includes a Flask backend, a MySQL database, and a static frontend served by Nginx. The entire application is containerized using Docker and can be easily deployed using Docker Compose.
 
+![Docker Animation](https://github.com/user-attachments/assets/b1e921f8-f2df-4b23-a911-18375d302787)
+
 
 ## Features
 Frontend: A static HTML/CSS website hosted using Nginx.
@@ -39,9 +41,7 @@ Containerization: Docker, Docker Compose.
 
 `curl http://localhost:5001/api/visitor-count`
 
-
-
-![Screenshot 2025-02-22 184215](https://github.com/user-attachments/assets/cbefea68-c4ea-46e8-b667-a81c82e81166)
+![WhatsApp Image 2025-02-23 at 03 16 53_3dade1ea](https://github.com/user-attachments/assets/adcce83a-4c6d-40a2-84b7-3d763ae4e626)
 
 
 
