@@ -36,14 +36,11 @@ Containerization: Docker, Docker Compose.
 ## Access the website:
 
 `http://localhost:8050`
+![WhatsApp Image 2025-02-23 at 03 16 53_3dade1ea](https://github.com/user-attachments/assets/adcce83a-4c6d-40a2-84b7-3d763ae4e626)
 
 #### Test the backend API:
 
 `curl http://localhost:5001/api/visitor-count`
-
-![WhatsApp Image 2025-02-23 at 03 16 53_3dade1ea](https://github.com/user-attachments/assets/adcce83a-4c6d-40a2-84b7-3d763ae4e626)
-
-
 
 ![Screenshot 2025-02-22 190101](https://github.com/user-attachments/assets/6bf3c90e-b59a-407c-b72f-4703a3a7cd70)
 
